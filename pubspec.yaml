@@ -1,0 +1,80 @@
+name: adam_and_eve
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  image_picker: ^0.8.4+5
+  html: ^0.15.0
+  firebase_auth: ^3.3.15
+  firebase_core: ^1.15.0
+  firebase_storage: ^10.2.13
+  cloud_firestore: ^3.1.13
+  curved_navigation_bar: ^1.0.2
+  google_sign_in: ^5.2.3
+  provider: ^6.0.2
+  shared_preferences: ^2.0.13
+  path_provider: ^2.0.9
+  path: ^1.8.0
+  fluttertoast: ^8.0.8
+  json_annotation: ^4.4.0
+  geolocator: ^8.2.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  google_fonts: ^2.3.1
+  flutter_bloc: ^8.0.1
+  meta: ^1.7.0
+  equatable: ^2.0.3
+  rxdart: ^0.27.3
+  file_picker: ^4.5.1
+  font_awesome_flutter: ^10.1.0
+  flutter_datetime_picker: ^1.5.1
+  eva_icons_flutter: ^3.1.0
+  extended_image: ^6.0.2+1
+  timeago: ^3.2.2
+  uuid: ^3.0.6
+  email_validator: ^2.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.4
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/happy_couple.jpg
+    - assets/wooldridge.jpg
+    - assets/fonts/MyFlutterApp.ttf
+    - assets/google_logo.png
+    - assets/hands.jpg
+    - assets/profilephoto.png
+    - assets/1024.png
+    - assets/play_store_512.png
+
+  fonts:
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/fonts/MyFlutterApp.ttf
+
+flutter_intl:
+  enabled: true
